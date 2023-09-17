@@ -69,10 +69,10 @@ class Kirana3:
         return self.price
     def set_price(self,x):
         self.price = x
-pindi = Kirana3("maida",30,0)
-print(pindi.get_price())
-pindi.set_price(20)
-print(pindi.get_price())
+# pindi = Kirana3("maida",30,0)
+# print(pindi.get_price())
+# pindi.set_price(20)
+# print(pindi.get_price())
 
 #that sums for now let me have dinner break and come 
 #ah I am back for another session of learning lets rock it today
