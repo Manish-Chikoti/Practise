@@ -78,3 +78,7 @@ print(pindi.get_price())
 #ah I am back for another session of learning lets rock it today
 
 #now trying to initialize the git commands or git usage from vs code 
+
+#git is very simple yet very helpful in sclaing a code 
+#lets get back to the python oops concepts                                                     
+#this is takignm time have to rexolve the link to github 
