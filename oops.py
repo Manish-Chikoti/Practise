@@ -82,3 +82,4 @@ print(pindi.get_price())
 #git is very simple yet very helpful in sclaing a code 
 #lets get back to the python oops concepts                                                     
 #this is takignm time have to rexolve the link to github 
+
