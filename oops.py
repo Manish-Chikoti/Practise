@@ -83,3 +83,34 @@ print(pindi.get_price())
 #lets get back to the python oops concepts                                                     
 #this is takignm time have to rexolve the link to github 
 
+#let us use a class of user defined data structure within another class 
+#for example kiranashop has products 
+
+
+#COMPOSITION = usage of one class as a data member in another class 
+class Products:
+    def __init__(self,name,price):
+        self.name=name
+        self.price=price
+    def get_price(self):
+        return self.price
+
+
+class Kiranashop:
+    def __init__(self,section):
+        self.name = section
+        self.products = []
+    def add_product_details(self,Product):
+        self.products.append(Product)
+
+p1 = Products("boost",5)
+p2 = Products("lays",10)
+p3 = Products("milk",20)
+
+k = Kiranashop(1)
+k.add_product_details(p1)
+k.add_product_details(p2)
+k.add_product_details(p3)
+print(k.products[-1].price)#usage of class defined as a datastructure for another class 
+
+
