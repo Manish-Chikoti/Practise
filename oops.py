@@ -111,6 +111,7 @@ k = Kiranashop(1)
 k.add_product_details(p1)
 k.add_product_details(p2)
 k.add_product_details(p3)
-print(k.products[-1].price)#usage of class defined as a datastructure for another class 
+print(k.products[-1].price)
+#usage of class defined as a datastructure for another class 
 
 
